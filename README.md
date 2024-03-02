@@ -47,5 +47,8 @@ node creator.js "John Doe" "+1234567890"
 * Retrieves and saves group invitation links.  
 
 ### Important Notes
+* **Creating 50 groups in a short period can lead to your account being blocked for 48 hours.**  
+**Please proceed with care. Pause for a few hours before resuming your activities.**  
+**Misuse of WhatsApp's services is strongly discouraged.**  
 * Ensure no instances of Chrome are running before execution.  
 * This script interacts with WhatsApp Web and requires stable internet connectivity.  
