@@ -1,7 +1,12 @@
 # WhatsApp Automation Script
 
 This Node.js script utilizes Playwright to automate group creation and management tasks on WhatsApp Web.  
-It reads group names from a text file, navigates through WhatsApp Web to create groups, adds a specified member as the group admin, and retrieves group invitation links.
+It reads group names from a text file, navigates through WhatsApp Web to create groups, adds a specified member as the group admin, and retrieves group invitation links. 
+
+![image](https://github.com/gorkemhacioglu/whatsapp-group-creator/assets/32572262/f4b82cd7-7fcc-430e-b264-5511c12096a4)  
+
+![image](https://github.com/gorkemhacioglu/whatsapp-group-creator/assets/32572262/719160d5-9499-4afe-83ea-2d2bc6dfe510)
+
 
 ## Prerequisites
 
