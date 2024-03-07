@@ -33,7 +33,7 @@ Make sure groupNames.txt file in the project root directory and list the names o
 Run the script with the following command:
 
 ```bash
-node script.js <firstMemberName> <firstMemberNumber> [timeout]
+node creator.js <firstMemberName> <firstMemberNumber> [timeout]
 ```
 
 `<firstMemberName>`: *The name of the first member to add to the group (as it appears in WhatsApp).*  
