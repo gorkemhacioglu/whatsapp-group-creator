@@ -24,6 +24,7 @@ Navigate to the project directory and install required npm packages:
 
 ```bash
 npm install
+npx playwright install
 ```
 
 ### Prepare Group Names File
