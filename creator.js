@@ -35,7 +35,7 @@ async function navigateToWhatsApp(firstMemberName, firstMemberNumber, timeout) {
 
     const userDataPath = `${homeDirectory}\\AppData\\Local\\Google\\Chrome\\User Data`;
 
-    const browser = await chromium.launchPersistentContext(userDataPath, {
+    const browser = await chromium.launch({
         headless: false, // Set to true for headless mode, false to see the browser
     });
 
@@ -43,7 +43,7 @@ async function navigateToWhatsApp(firstMemberName, firstMemberNumber, timeout) {
 
     await page.goto('https://web.whatsapp.com/');
 
-    await page.waitForTimeout(10000);
+    await page.waitForTimeout(15000);
 
     // Wait for user to login and load the page
     await page.waitForSelector('span[data-icon="menu"]');
